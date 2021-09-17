@@ -1,0 +1,168 @@
+Level(
+                                    [
+                        (
+                                    "Acts/Lone Road/section1.png",
+                        [
+                        Obs(OBSTACLES["barrier"],1200,NATY/2,50,600),
+                        
+
+                        ],
+                        [(ENEMYPISTOLCLASS, 1250, 360, 110, 270, 500),
+                        (ENEMYPISTOLCLASS, 1250, 720, 110, 270, 500)],
+                                    pygame.Rect(int((NATX-20)*XRATIO), 0, int(20*XRATIO), int(NATY*YRATIO)),
+                                    (int(100*XRATIO), int(NATY/2*YRATIO))
+                        ),
+
+                        (
+                                    "Acts/Lone Road/section2.png",
+                                    [Obs(OBSTACLES["redcar"],800,600,610,266)],
+                                    [(ENEMYBATCLASS, 1600, 600, 110, 90, 500),
+                                    (ENEMYSHOTGUNCLASS, 1400, 200, 110, 90, 1000)],
+                                    pygame.Rect(int((NATX-20)*XRATIO), 0, int(20*XRATIO), int(NATY*YRATIO)),
+                                    (int(100*XRATIO), int(NATY/2*YRATIO))
+                        ),
+			(
+                                    "Acts/Lone Road/section3.png",
+                                    [],
+                                    [(ENEMYBATCLASS, 800, 216, 110, 90, 500),
+                                     (ENEMYBATCLASS, 1000, 432, 110, 90, 500),
+                                     (ENEMYBATCLASS, 1200, 648, 110, 90, 500),
+				     (ENEMYBATCLASS, 1400, 864, 110, 90, 500),
+					
+                        ],
+                                    pygame.Rect(int((NATX-20)*XRATIO), 0, int(20*XRATIO), int(NATY*YRATIO)),
+                                    (int(100*XRATIO), int(NATY/2*YRATIO))
+                        ),
+			(
+                                    "Acts/Lone Road/section4.png",
+                                    
+                                    [Obs(OBSTACLES["brownchair"],802,216,138,126),
+					Obs(OBSTACLES["table1"], 700, 547, 294, 294),
+					Obs(OBSTACLES["plant"], 545, 955, 174, 174),
+					Obs(OBSTACLES["couch"], 1115, 535, 168, 336),
+					Obs(OBSTACLES["table2"], 1547, 750, 252, 384),
+					Obs(OBSTACLES["kitchen1"], 1590, 68, 402, 126),
+					Obs(OBSTACLES["kitchen2"], 1849, 203, 132, 396),
+					Obs("",391, 855, 22, 450),
+					Obs("",391, 224, 22, 450),
+					Obs("",1206, 347, 10, 720),
+					Obs("",1206, 984, 10, 192)],
+				[(ENEMYBATCLASS, 200, 200, 110, 180, 500),(ENEMYBATCLASS, 200, 880, 110, 0, 500),
+				(ENEMYSMGCLASS, 1050, 120, 120, 135, 1000), (ENEMYSHOTGUNCLASS, 1800, 850, 110, 0, 500), 
+				 (ENEMYSHOTGUNCLASS, 1325, 550, 110, 180, 500), (ENEMYPISTOLCLASS, 950, 950, 110, 45, 700)
+				
+],
+					
+                                    pygame.Rect(int(1770*XRATIO), int(952*YRATIO), int(129*XRATIO), int(151*YRATIO)),
+                                    (int(100*XRATIO), int(NATY/2*YRATIO))
+                        ),
+			(
+                                    "Acts/Lone Road/section5.png",
+                                    
+                                    [
+					Obs("",1458, 118, 20, 236),
+					Obs("",734, 10, 1430, 20),
+					Obs("",10, 544, 20, 1087),
+					Obs("",420, 1070, 1070, 20),
+					Obs("",1130, 800, 20, 520),
+					Obs("",1520, 1070, 800, 20),
+					Obs("",1910, 650, 20, 825),
+					Obs("",1760, 225, 320, 20),
+					Obs("",375, 295, 250, 250),
+					Obs("",375, 784, 250, 250),
+					Obs("",1515, 784, 250, 250),
+					Obs("",800, 550, 45, 750)],
+
+				[(ENEMYPISTOLCLASS, 925, 420, 110, -90, 500),
+				(ENEMYBATCLASS, 925, 600, 110, 0, 500),
+				(ENEMYBATCLASS, 925, 780, 110, 0, 500),
+				(ENEMYSMGCLASS, 1200, 725, 110, -10, 500),
+				(ENEMYBATCLASS, 1450, 950, 110, 0, 500),
+				(ENEMYSHOTGUNCLASS, 1715, 750, 110, 10, 500),
+				(ENEMYBATCLASS, 580, 250, 110, 0, 500),
+				(ENEMYBATCLASS, 580, 750, 110, 180, 500),
+				(ENEMYPISTOLCLASS, 310, 50, 110, -90, 500),
+				(ENEMYSHOTGUNCLASS, 310, 500, 110, -90, 500),
+				(ENEMYSMGCLASS, 310, 950, 110, -90, 500),
+				(ENEMYSMGCLASS, 30, 230, 110, -90, 500),
+				(ENEMYSMGCLASS, 30, 740, 110, -90, 500)],
+					
+                                    pygame.Rect(int(820*XRATIO), int(1060*YRATIO), int(300*XRATIO), int(20*YRATIO)),
+                                    (int(1800*XRATIO), int(50))),
+			(
+                                    "Acts/Lone Road/section6.png",
+                                    
+                                    [
+					Obs("",400, 540, 820, 1080),
+					Obs("",1520, 540, 820, 1080),
+					],
+
+				[
+				(ENEMYBATCLASS, 910,400 , 110, 0, 500),
+				(ENEMYBATCLASS, 910, 550, 110, 0, 500),
+				(ENEMYBATCLASS, 910, 700, 110, 0, 500),
+				(ENEMYBATCLASS, 960, 850, 110, 0, 500),
+				(ENEMYBATCLASS, 960, 1000, 110, 0, 500),
+				],
+					
+                                    pygame.Rect(int(820*XRATIO), int(1060*YRATIO), int(300*XRATIO), int(20*YRATIO)),
+                                    (int(960*XRATIO), int(50*YRATIO))),
+			(
+                                    "Acts/Lone Road/section7.png",
+                                    
+                                    [
+					Obs("",125, 540, 250, 1080),
+					Obs("",1795, 540, 250, 1080),
+					Obs("",870, 840, 1245, 480),
+					Obs("",550, 225, 250, 450),
+					Obs("",1300, 120, 1300, 275),
+					],
+
+				[
+				(ENEMYBATCLASS, 280,460 , 110, 0, 500),
+				(ENEMYBATCLASS, 1530,930 , 110, 0, 500),
+				(ENEMYSHOTGUNCLASS, 1530, 430 , 110, 90, 800),
+				(ENEMYSMGCLASS, 1100, 310 , 130, 180, 500),
+				(ENEMYPISTOLCLASS, 750, 310 , 130, 220, 500),
+				
+				],
+					
+                                    pygame.Rect(int(1490*XRATIO), int(1010*YRATIO), int(170*XRATIO), int(50*YRATIO)),
+                                    (int(350*XRATIO), int(50*YRATIO))),
+(
+                                    "Acts/Lone Road/section8.png",
+                                    
+                                    [
+					Obs("",410, 10, 820, 20),
+					Obs("",10, 540, 20, 1080),
+					Obs("",960, 1070, 1920, 20),
+					Obs("",1910, 540, 20, 1080),
+					Obs("",1510, 10, 820, 20),
+					Obs(OBSTACLES["barrier"],960, 315, 1120, 80),
+					Obs("",960, 730, 50, 480),
+					],
+
+				[
+				(ENEMYBATCLASS, 1820,100 , 110, 90, 500),
+				(ENEMYBATCLASS, 100,100 , 110, -90, 500),
+				(ENEMYSHOTGUNCLASS, 100,900 , 110, 0, 500),
+				(ENEMYBATCLASS, 250,600 , 110, 0, 500),
+				(ENEMYSMGCLASS, 400,900 , 110, 0, 500),
+				(ENEMYBATCLASS, 550,600 , 110, 0, 500),
+				(ENEMYPISTOLCLASS, 700,900 , 110, 0, 500),
+				(ENEMYSHOTGUNCLASS, 1820,900 , 110, 0, 500),
+				(ENEMYBATCLASS, 1670,600 , 110, 0, 500),
+				(ENEMYSMGCLASS, 1520,900 , 110, 0, 500),
+				(ENEMYBATCLASS, 1370,600 , 110, 0, 500),
+				(ENEMYPISTOLCLASS, 1220,900 , 110, 0, 500),
+				],
+					
+                                    pygame.Rect(int(0*XRATIO), int(0*YRATIO), int(NATX*XRATIO), int(NATY*YRATIO)),
+                                    (int(960*XRATIO), int(50*YRATIO))),
+]
+                        
+                                    ,
+
+                                "Music/skyline.wav",
+                                    Dialogue(str("ENTER THE TOWN.").split(), 60),
+                                    Player(Bat(10, "BAT", "Weapons/Bat/swing.wav", False, False, (0,0))))

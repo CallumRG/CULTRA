@@ -1,0 +1,11 @@
+playershotgun = (PLAYERSHOTGUN,ENEMYSHOTGUN, 60, 6, 7, 150, 60, 8, 4, "SHOTGUN", "Weapons/Shotgun/shotgun.wav", False, False, (0,0), SHOTGUNGROUND)
+enemyshotgun = (PLAYERSHOTGUN,ENEMYSHOTGUN, 60, 6, 7, 150, 60, 8, 4, "SHOTGUN", "Weapons/Shotgun/shotgun.wav", True, False, (0,0), SHOTGUNGROUND)
+
+playerpistol = (PLAYERPISTOL, ENEMYPISTOL, 20, 1, 12, 5, 80, 7, 12, "PISTOL", "Weapons/Pistol/pistol.wav", False, False, (0,0), PISTOLGROUND)
+enemypistol = (PLAYERPISTOL, ENEMYPISTOL, 20, 1, 12, 5, 80, 7, 12, "PISTOL", "Weapons/Pistol/pistol.wav", True, False, (0,0), PISTOLGROUND)
+
+playersmg = (PLAYERSMG, ENEMYSMG, 3, 1, 8, 40, 70, 2, 20, "SMG", "Weapons/Smg/smg.wav", False, False, (0,0), SMGGROUND)
+enemysmg = (PLAYERSMG, ENEMYSMG, 3, 1, 8, 40, 70, 2, 20, "SMG", "Weapons/Smg/smg.wav", True, False, (0,0), SMGGROUND)
+
+playerbat = (10, "BAT", "Weapons/Bat/swing.wav", False, False, (0,0))
+enemybat = (10, "BAT", "Weapons/Bat/swing.wav", True, False, (0,0))
